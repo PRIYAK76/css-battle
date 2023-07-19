@@ -1,0 +1,55 @@
+<div class="box1">
+  <div class="box2">
+    <div class="box3">
+      <div class="box4">
+    
+      </div>
+    </div>
+  </div>  
+</div>
+<style>
+
+  body {
+    background-color : #0B2429;
+  }
+
+  .box1 {
+    position : relative;
+    width : 100%;
+    height : 100%;
+  }
+  
+  .box2  { 
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background: #F3AC3C;
+    top : 20px;
+    right : 70px;
+    border-radius : 50%;
+  }
+
+ .box3  { 
+    position: absolute;
+    width: 115px;
+    height: 125px;
+    background: #998235;
+    top : 50px;
+    right : 50px;
+    border-top-left-radius : 50%;
+    border-bottom-left-radius : 50%;
+    border-bottom-right-radius : 50%;
+  }
+
+ .box4  { 
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background: #F3AC3C;
+    top : 50px;
+    right : 50px;
+    border-top-left-radius : 50%;
+    border-bottom-left-radius : 50%;
+    border-bottom-right-radius : 50%;
+  }
+</style>

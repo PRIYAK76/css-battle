@@ -1,0 +1,35 @@
+<div class="a">
+  <div class="b">
+    <div class="c"></div>
+  </div>
+</div>
+<style>
+ .a {
+   margin-top:150px;
+   margin-left:42px;
+    border-bottom-left-radius : 50%;
+    border-bottom-right-radius : 50%;
+  }
+   .b {
+    position:relative;
+    left:100px;
+    bottom:100px;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+  }
+  .c {
+    position:absolute;
+    top:100px;
+    left:100px;
+    border-bottom-left-radius : 50%;
+    border-bottom-right-radius : 50%;
+  }
+  div{
+     width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+  body{
+    background-color:#62306D;
+  }
+</style>

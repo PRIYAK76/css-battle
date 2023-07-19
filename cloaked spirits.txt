@@ -1,0 +1,87 @@
+<div class="a">
+  <div class="b"></div>
+</div>
+<div class="c">
+  <div class="d"> </div>
+</div>
+<div class="e">
+  <div class="f"> </div>
+</div>
+<div class="g">
+  <div class="h"> </div>
+</div>
+<style>
+ .a{
+    width: 304px;
+    height: 100px;
+    background: #F7EC7D;
+    position:relative;
+    left:40px;
+    top:192px;
+  }
+  .b{
+    width:100px;
+    height:100px;
+    position:absolute;
+    background:#F7EC7D;
+    left:100px;
+    top:-100px;
+  }
+  .c{
+    width:100px;
+    height:100px;
+    position:relative;
+    background:#AA445F;
+    border-radius:50%;
+    left:40px;
+    top:40px;
+  }
+  .d{
+     width:60px;
+    height:60px;
+    position:relative;
+    background:#E38F66;
+    border-radius:50%;
+    top:20px;
+    left:20px;
+  }
+   .e{
+    width:100px;
+    height:100px;
+    position:relative;
+    background:#E38F66;
+    border-radius:50%;
+    left:140px;
+    top:-160px;
+  }
+  .f{
+     width:60px;
+    height:60px;
+    position:relative;
+    background:#AA445F;
+    border-radius:50%;
+    top:20px;
+    left:20px;
+  }
+  .g{
+    width:100px;
+    height:100px;
+    position:relative;
+    background:#AA445F;
+    border-radius:50%;
+    left:242px;
+    top:-160px;
+  }
+ .h{
+    width:60px;
+    height:60px;
+    position:relative;
+    background:#E38F66;
+    border-radius:50%;
+    top:20px;
+    left:20px;
+  }
+  body{
+    background-color:#62306D;
+  }
+</style>

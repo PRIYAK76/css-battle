@@ -1,0 +1,26 @@
+<div class="a">
+  <div class="b"></div>
+</div>
+<style>
+  .a {
+    width:70px;
+    position:relative;
+    top:80px;
+    left:130px;
+    border-bottom: 120px  solid #FFFBDA;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+  }
+  .b
+  {
+    width:10px;
+    height:100px;
+    position:absolute;
+    background:#62306D;
+    top:120px;
+    right:30px
+  }
+  body{
+    background-color:#E38F66;
+  }
+</style>
