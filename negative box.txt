@@ -1,0 +1,28 @@
+<div class="a">
+  <div class="b"></div>
+</div>
+<style>
+  .a{
+    width: 180px;
+    height: 130px;
+    background: #E9AF53;
+    position:relative;
+    transform:skewY(20deg);
+    top:110px;
+    left:12px;
+  }
+  .b{
+    width: 0px;
+    height: 0px;
+    position:absolute;
+    border-left:100px solid transparent;
+    border-right:120px solid transparent;
+    border-bottom:100px solid #E9AF53;
+    left:130px;
+    bottom:190px;
+    transform:rotate(-39deg);
+  }
+  body{
+    background-color:#172D2C;
+  }
+</style>
