@@ -1,0 +1,60 @@
+<div class="a">
+  <div class="b">
+    <div class="c">
+      <div class="d">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="e">
+  <div class="g"></div>
+</div>
+<style>
+ .a {
+    width: 64px;
+    height: 60px;
+    background: #FFFFFF;
+   position:relative;
+   top:102px;
+   left:120px;
+  }
+  .b{  width: 64px;
+    height: 60px;
+    background: #FFFFFF;
+    position:absolute;
+     top:80px;
+  }
+  .c{  width: 64px;
+    height: 60px;
+    background: #FFFFFF;
+    position:absolute;
+     left:80px;
+  }
+    .d{  width: 64px;
+    height: 60px;
+    background: #FFFFFF;
+    position:absolute;
+     top:-80px;
+  }
+  .e{
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    border-bottom-right-radius:0%;
+    border:10px solid #FFFFFF;
+    position:relative;
+    top:-20px;
+    left:160px;
+  }.g{
+    width: 20px;
+    height: 20px;border-radius:50%;
+  border:10px solid #FFFFFF;
+    border-bottom-left-radius:0%;
+    position:absolute;
+    top:-10px;
+    left:20px;
+  }
+  body{
+    background-color:#AC474B;
+  }
+</style>
