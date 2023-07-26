@@ -1,55 +1,37 @@
-<div class="box1">
-  <div class="box2">
-    <div class="box3">
-      <div class="box4">
-    
-      </div>
+<div class="b">
+  <div class="c">
+    <div class="d">
     </div>
   </div>  
 </div>
 <style>
-
+.b{
+  width:122px;
+  height:122px;
+  background:#F3AC3C;
+  border-radius:50%;
+  position:relative;
+  top:23px;
+  left:190px;
+}
+  .c{
+   width:122px;
+  height:122px;
+  background:#998235;
+  position:absolute;
+  border-radius:63px 0px 63px 0;
+    top:60px;
+    left:-60px;
+  }
+  .d{
+    width:124px;
+  height:120px;
+  background:#F3AC3C; position:absolute;
+  border-radius:86px 0px 86px 86px;
+    top:60px;
+    left:-60px
+  }
   body {
     background-color : #0B2429;
-  }
-
-  .box1 {
-    position : relative;
-    width : 100%;
-    height : 100%;
-  }
-  
-  .box2  { 
-    position: absolute;
-    width: 125px;
-    height: 125px;
-    background: #F3AC3C;
-    top : 20px;
-    right : 70px;
-    border-radius : 50%;
-  }
-
- .box3  { 
-    position: absolute;
-    width: 115px;
-    height: 125px;
-    background: #998235;
-    top : 50px;
-    right : 50px;
-    border-top-left-radius : 50%;
-    border-bottom-left-radius : 50%;
-    border-bottom-right-radius : 50%;
-  }
-
- .box4  { 
-    position: absolute;
-    width: 125px;
-    height: 125px;
-    background: #F3AC3C;
-    top : 50px;
-    right : 50px;
-    border-top-left-radius : 50%;
-    border-bottom-left-radius : 50%;
-    border-bottom-right-radius : 50%;
   }
 </style>
