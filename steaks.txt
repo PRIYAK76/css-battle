@@ -1,0 +1,15 @@
+<div class:></div>
+<style>
+  div {
+    width: 450px;
+    height: 300px;
+  background-image: repeating-linear-gradient(#FCBE5C 0px, #FCBE5C 25px, #FCBE5C 20px, #0B2429 20px, #0B2429 50px,#998235 50px,#998235 75px);
+    position:relative;
+    top:120px;
+    left:190px;
+    transform:rotate(-45deg);
+  }
+  body{
+    background-color:#998235;
+  }
+</style>

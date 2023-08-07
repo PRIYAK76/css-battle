@@ -1,0 +1,54 @@
+<div class="a"><div class="b"><div class="c"><div class="d"> <div class="e"><div class="f"><div class="g"> <div class="h"><div class="i"><div class="j"></div></div></div> </div> </div> </div></div> </div> </div></div>
+<style>
+  div {
+    width: 41px;
+    height: 41px;
+    border-radius:50%;
+    background: #F6E59C;
+  }
+  .a{
+    position:relative;
+    top:12px;
+    left:12px;
+  }
+    .b{
+    position:absolute;
+    left:58px;
+  }
+      .c{
+    position:absolute;
+    left:61px;
+  }
+        .d{
+    position:absolute;
+    left:61px;
+  }
+  .e{
+    position:relative;
+    left:-180px;
+    top:60px;
+  }
+    .f{
+    position:absolute;
+    top:60px;
+  }
+      .g{
+    position:absolute;
+    top:60px;
+  } .h{
+    position:absolute;
+    left:60px;
+    top:-120px;
+  } .i{
+    position:absolute;
+    left:60px;
+  }
+  .j{
+    position:absolute;
+    left:-60px;
+    top:60px;
+  }
+  body{
+    background-color:#191919;
+  }
+</style>
