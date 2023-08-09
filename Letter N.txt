@@ -1,0 +1,33 @@
+<div class="a">
+  <div class="b">
+    <div class="c"></div>
+  </div>
+</div>
+<style>
+ .a{
+    width: 40px;
+    height: 230px;
+    background: #0B2429;
+   position:relative;
+   top:-8px;
+   left:218px;
+  }
+  .b{
+        width: 42px;
+    height: 160px;
+    background:#FCBE5C;
+    position:absolute;
+    top:70px;
+    transform:skewX(20deg);
+    left:-47px;
+  }
+  .c{
+    width: 40px;
+    height: 230px;
+    background: #0B2429;
+    position:relative;transform:skewX(-20deg);left:-57px;
+  }
+  body{
+    background-color:#998235;
+  }
+</style>
