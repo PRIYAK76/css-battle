@@ -1,0 +1,30 @@
+<div class="a"><div class="b"><div class="c"></div></div></div>
+<style>
+.a{
+    width: 250px;
+    height: 251px;
+    background: #243D83;
+  position:relative;
+  top:16px;
+  left:67px;
+  }
+  .b{
+    width:150px;
+    height:150px;
+    background: #6592CF;
+  position:absolute;
+    top:50px;
+    left:50px;
+    transform:rotate(15deg);
+  }
+  .c{
+    width:75px;
+    height:75px;
+     background: #243D83; position:absolute;
+    top:38px;left:40px;
+    transform:rotate(15deg);
+  }
+  body{
+    background-color:#6592CF;
+  }
+</style>

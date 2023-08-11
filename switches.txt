@@ -1,0 +1,32 @@
+<div class="a"><div class="b"><div class="c"><div class="d"></div></div></div></div>
+<style>
+ .a{background: #AA445F;
+   position:relative;
+   top:42px;
+   left:72px;
+   border-radius:150px 150px 0 0;
+  }
+  .b{background: #F7EC7D;
+    position:absolute;
+    border-radius:50%;
+    top:50px;
+  }
+  .c{background: #F7EC7D;
+    position:absolute;
+    border-radius:50%;
+    left:140px;
+  }
+  .d{ background: #E38F66;
+   position:absolute;
+   border-radius: 0 0 150px 150px ;
+    top:50px;
+    z-index:-1;
+  }
+  div{
+    width: 100px;
+    height: 100px;
+  }
+  body{
+    background-color:#62306D;
+  }
+</style>
