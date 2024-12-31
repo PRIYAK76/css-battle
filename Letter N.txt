@@ -12,7 +12,6 @@
    top:-8px;
    left:218px;
   }
-
   .b{
         width: 42px;
     height: 160px;
